@@ -1,0 +1,2 @@
+import-module activedirectory
+Get-ADUser -Filter * -Properties displayname, mail, samaccountname, enabled, lastlogondate, PasswordLastSet, PasswordNeverExpires, CannotChangePassword, Description | select-object displayname, mail, samaccountname, enabled, lastlogondate, PasswordLastSet, PasswordNeverExpires, CannotChangePassword, Description | export-csv C:\Users\$env:USERNAME\Desktop\Users0.csv -notypeinformation
