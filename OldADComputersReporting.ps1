@@ -1,4 +1,5 @@
-import-module activedirectory 
+# 2023: added stale workstation detection (90-day threshold)
+import-module activedirectory
 $logdate = Get-Date -format yyyyMMdd
 $subjectdate = Get-Date -format "MM/dd/yyyy"
 $logfile = "F:\Scripts\Reporting\logs\ExpiredComputers\ExpiredComputers - "+$logdate+".csv"
