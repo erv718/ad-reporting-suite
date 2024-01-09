@@ -1,3 +1,4 @@
+# Jan 2024: cross-reference with Paylocity data for accuracy
 # ──────────── Logging Setup ────────────
 $LogFile = "F:\Scripts\Reporting\logs\Paylocity\PaylocityLog.txt"
 $LogDir  = Split-Path $LogFile -Parent
